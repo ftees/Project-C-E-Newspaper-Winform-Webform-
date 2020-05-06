@@ -1,0 +1,15 @@
+E:\C#\Project\Project\bin\Debug\Project.exe
+E:\C#\Project\Project\bin\Debug\Project.pdb
+E:\C#\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+E:\C#\Project\Project\obj\Debug\Project.Form1.resources
+E:\C#\Project\Project\obj\Debug\Project.Properties.Resources.resources
+E:\C#\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+E:\C#\Project\Project\obj\Debug\Project.exe
+E:\C#\Project\Project\obj\Debug\Project.pdb
+E:\C#\Project\Project\obj\Debug\Project.Form2.resources
+E:\C#\Project\Project\obj\Debug\Project.FormAdd.resources
+E:\C#\Project\Project\obj\Debug\Project.Form3.resources
+E:\C#\Project\Project\obj\Debug\Project.FormAddNews.resources
+E:\C#\Project\Project\obj\Debug\Project.AreaForm.resources
+E:\C#\Project\Project\obj\Debug\Project.History.resources
+E:\C#\Project\Project\obj\Debug\Project.FormCmt.resources

@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frame.master.cs" Inherits="ProjectWeb.Frame" %>
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head runat="server">
+    <title></title>
+    <link href="CSS/header.css" rel="stylesheet" />
+    <link href="CSS/frame.css" rel="stylesheet" />
+    <link href="CSS/footer.css" rel="stylesheet" />
+    <link href="CSS/home.css" rel="stylesheet" />
+    <link href="CSS/details.css" rel="stylesheet" />
+    <link href="CSS/list.css" rel="stylesheet" />
+    <link href="CSS/league.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+        <div>
+            <%-- header --%>
+          <div class="header">
+          <div class="banner">
+              <a href="Login.aspx" style="float:right; padding-top:10px; padding-right:20px;"><img src="Images/login.png"/></a>
+              <asp:Label ID="user" runat="server" CssClass="username"></asp:Label>
+            <h2>Liên Minh 247</h2>
+            <h4>Cập nhật tin tức mới nhất về Liên Minh Huyền Thoại</h4>
+              
+              <asp:Button CssClass="searchBtn" ID="Button1" runat="server" OnClick="Button1_Click"/>
+              <asp:TextBox CssClass="search" ID="TextBox1" runat="server" Height="29px"></asp:TextBox>
+              
+
+                  
+          </div>
+          <div class="menu">
+              <ul>
+                    <li class=""><a href="home.aspx" >Trang chủ</a></li>
+                    <li class=""><a href="List.aspx?topic=1">Tin Esport</a></li>
+                    <li class=""><a href="List.aspx?topic=2">Tin Game</a></li>
+                    <li class=""><a href="List.aspx?topic=3" >Cẩm nang</a></li>
+                    <li class=""><a href="About.aspx">Liên hệ</a></li>
+
+                </ul>
+               
+          </div>
+
+          </div>
+            <%-- content --%>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+            <%-- footer --%>
+            <div class="footer">
+               <div class="f1" >Create by PhamTien</div>
+                <div class="f2">Contact us</div>
+                <div class="f3" style="background-color:#0026ff"> f </div>
+                <div class="f3" style="background-color:#0094ff"> t </div>
+                <div class="f3" style="background-color:#ff0000"> g </div>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿.post {
+    width: 600px;
+    height: 210px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #3a3b3a;
+}
+.img{
+    width:50%;
+}
+.info{
+    width:50%;
+}
+.info h4{
+    padding-left:20px;
+    padding-top:20px;
+}
+.info p{
+    padding-left: 20px;
+}
+.picture2{
+    border-radius:10px;
+    width:100%;
+    margin-top:10px;
+    margin-left:10px;
+}
+.paging {
+    margin-top: 10px;
+    text-align: center;
+}
+    .paging .btnPaging {
+        padding: 3px;
+        border: 1px solid #3a3b3a;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+ .topic{
+     float: right;
+     color:aliceblue;
+     padding-right:14px;
+     font-weight:bold;
+     margin-top:25px;
+     margin-right:10px;
+     background-color: #ff6a00;
+     border-radius:10px;
+     text-align:center;
+ } 
+ 

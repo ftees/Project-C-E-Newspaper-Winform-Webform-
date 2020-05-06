@@ -1,0 +1,144 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.username{
+    height:30px;
+    width:80px;
+    background-color:#a63700;
+    color: antiquewhite;
+    font-weight:bold;
+    float:right;
+    padding-top:10px;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+}
+
+    .content .left {
+        width: 75%;
+        padding-right: 10px;
+    }
+
+        .content .left .intro {
+            display: flex;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+            .content .left .intro .intro-image {
+                width: 50%;
+            }
+
+                .content .left .intro .intro-image img {
+                    border-radius: 10%;
+                    width:100%;
+                 
+                }
+                .content .left .intro .imgTop1{
+                    width:100%;
+                }
+
+        .content .left .type {
+            font-size: 20px;
+            background: #a63700;
+            text-align:center;
+            color: #fff;
+        }
+        .content .left .top2-cakes {
+            border-top: 2px dotted grey;
+            border-bottom: 2px dotted grey;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            display: flex;
+            width: 100%;
+        }
+        .cake{
+            width:30%;
+            margin-left:20px;
+        }
+           
+
+            .content .left .top2-cakes .cake img {
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10%;
+            }
+
+            .content .left .top2-cakes .cake .cake-name {
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .cake-pic{
+                
+            }
+        .content .left .infor {
+            margin-top: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px dotted gray;
+        }
+
+            .content .left .infor .visit {
+                font-size: 27px;
+                font-weight: bold;
+                margin-bottom: 1rem;
+            }
+
+            .content .left .infor p {
+                margin: 8px 0;
+            }
+
+        .content .left .signature {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+        }
+
+            .content .left .signature .sign {
+                margin-top: 1rem;
+                font-size: 30px;
+                font-family: 'Dancing Script';
+                font-style: italic;
+            }
+.Title{
+    padding-left:20px;
+}
+.Titles {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.shortDesc{
+    padding:20px;
+}
+.date{
+    float:right;
+    font-size:14px;
+    padding-top:50px;
+}
+.Content-right{
+    width:25%;
+    height:auto;
+    
+}
+.area {
+    width: 90%;
+    height: 50px;
+    border: 1px dashed #a63700;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.adv{
+    padding-top: 110px;
+    width:100%;
+}

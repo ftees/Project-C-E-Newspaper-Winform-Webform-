@@ -1,0 +1,51 @@
+﻿.areaInfo {
+    width: 80%;
+    margin:auto;
+    height: auto;
+    box-shadow: 0 0 15px #3a3b3a;
+}
+.areaBtn{
+    text-decoration: none;
+    color: #000000;
+}
+.areaInfo h4{
+    font-size:20px;
+    padding-top:10px;
+    padding-left:10px;
+}
+.areaInfo p{
+    padding-top:10px;
+    padding-left:20px;
+}
+.areaInfo img{
+    width:60%;
+    margin-left:150px;
+    margin-top: 30px;
+}
+.bxh{
+    padding-top:30px;
+    margin-left:170px;
+    padding-bottom: 20px;
+}
+.Grid {
+    width: 430px;
+    height: 200px;
+    background-color: #a63700;
+    margin: 5px 0 10px 0;
+    border: solid 2px #c1c1c1;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #fff;
+}
+
+    .Grid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }

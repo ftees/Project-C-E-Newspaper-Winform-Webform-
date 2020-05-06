@@ -1,0 +1,73 @@
+﻿.header {
+    height: 200px;
+    background-color: #a63700;
+    color: #fff;
+}
+
+.banner {
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.banner h2{
+    line-height:40px;
+}
+
+.menu {
+    height: 50px;
+    background-color: #1e2021;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size:20px;
+}
+
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight:bold;
+        margin-right: 15px;
+    }
+ .menu ul {
+    list-style-type: none;
+    padding: 3px 0;
+    margin: 0;
+}
+
+    .header .menu ul li {
+        display: inline-block;
+        padding-right: 25px;
+    }
+        .header .menu ul li :hover{
+            background-color:#a63700;
+            
+        }
+        .header .menu ul li a {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+
+.search {
+    border-left: 3px solid #111210;
+    border-top: 3px solid #111210;
+    border-bottom: 3px solid #111210;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000;
+    float: right;
+    border-right: 3px solid #111210;
+    border-right-width: medium;
+}
+.searchBtn {
+    width: 32px;
+    height: 32px;
+    background-image: url('/Images/search.png');
+    background-size: cover;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #a63700;
+    float: right;
+    margin-right: 30px;
+}

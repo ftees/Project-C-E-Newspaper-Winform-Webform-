@@ -1,0 +1,9 @@
+E:\C#\Project\ProjectWeb\bin\ProjectWeb.dll.config
+E:\C#\Project\ProjectWeb\bin\ProjectWeb.dll
+E:\C#\Project\ProjectWeb\bin\ProjectWeb.pdb
+E:\C#\Project\ProjectWeb\obj\Debug\ProjectWeb.csprojAssemblyReference.cache
+E:\C#\Project\ProjectWeb\obj\Debug\ProjectWeb.dll
+E:\C#\Project\ProjectWeb\obj\Debug\ProjectWeb.pdb
+E:\C#\Project\ProjectWeb\bin\Project.exe
+E:\C#\Project\ProjectWeb\bin\Project.pdb
+E:\C#\Project\ProjectWeb\obj\Debug\ProjectWeb.csproj.CopyComplete
